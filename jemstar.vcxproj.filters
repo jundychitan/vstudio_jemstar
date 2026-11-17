@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4346fc2d-ca67-4530-b4e6-ab525bbe49a8}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{eea20207-3a89-4769-ae05-c0007a6ff0b8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{8e6fc922-9a28-4181-aa48-ea132d56429e}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{e3491838-84dc-4b74-98e7-bd43652780c9}</UniqueIdentifier>
+      <Extensions>*.mak</Extensions>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{64d9523a-4ea1-4228-9305-77a6483e5741}</UniqueIdentifier>
+      <Extensions>*.vgdbsettings</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jemstar.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="transport.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="jem_link.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="jem_client.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="jem_loadprofile.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="jem_inst.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="data_output.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="transport.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="jem_link.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="jem_client.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="jem_loadprofile.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="jem_inst.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="data_output.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="jemstar-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="jemstar-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>
